@@ -1,0 +1,59 @@
+@import 'bootstrap/bootstrap.scss';
+
+/* Varibles */
+:root {
+    --texto: 'Montserrat', sans-serif;
+    --color-fondo: #F4F2F0;
+    --color-texto: #373234;
+}
+
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    line-height: 1.5;
+    width: 100%;
+    font-family: var(--texto);
+    background: var(--color-fondo);
+    color: var(--color-texto);
+}
+
+#my-coffe {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+/* NavBar */
+#icon {
+    width: 40px;
+    margin: 0;
+}
+
+#nav {
+    margin-top: 5vh;
+    height: 90vh;
+    margin-left: 10px;
+    background-color: #373234;
+    border-radius: 20px;
+}
+
+#nav img {
+    justify-content: center;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+ul {
+    padding: 0;
+    margin-top: 25vh;
+}
+
+
+
