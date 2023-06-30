@@ -13614,6 +13614,36 @@ span {
   font-weight: 400;
 }
 
+/*   Modal   */
+header .perfil-modal {
+  width: 250px;
+  margin-top: 64vh;
+  margin-left: 8vh;
+}
+header .perfil-modal .perfil-usuarios {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+header .perfil-modal li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+header .perfil-modal li img {
+  margin: 5px 0;
+  margin-right: 3px;
+}
+header .perfil-modal li a {
+  text-decoration: none;
+  display: block;
+  padding: 10px 0;
+  color: var(--color-naranja);
+}
+header .perfil-modal li a:hover {
+  font-weight: 600;
+}
+
 /*  Responsive */
 @media (max-width: 992px) {
   #inicio div {
