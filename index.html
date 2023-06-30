@@ -29,10 +29,48 @@
                     </li>
                 </ul>
             </div>    
-            <a href="#" id="usuario">
-                <img src="/img/usuario.png" width="40px" ;>
+
+            <div data-bs-target="#usuarioPerfil" data-bs-toggle="modal">
+              <a href="#" id="usuario" >
+                <img src="/img/usuario.png" width="40px";>
             </a>
+            </div>
+          
+
         </div>
+
+                <!-- Modal -->
+        <div class="modal fade perfil-modal" id="usuarioPerfil" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Opciones</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <ul class="perfil-usuarios">
+                  <li>
+                    <img src="img/perfil.png" style="width: 30px; height: 30px;">
+                    <a href="#">Mi perfil</a>
+                  </li>
+                  <li>
+                    <img src="img/direccion.png" style="width: 30px; height: 30px;">
+                    <a href="#">Mi dirección</a>
+                  </li>
+                  <li>
+                    <img src="img/tarjeta.png" style="width: 30px; height: 30px;">
+                    <a href="#">Mi Tarjeta</a>
+                  </li>
+                  <li>
+                    <img src="img/cerrar.png" style="width: 30px; height: 30px;">
+                    <a href="#">Cerrar sesión</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        
     </header>
 
     <section id="inicio">
