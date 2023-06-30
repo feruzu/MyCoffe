@@ -13534,32 +13534,15 @@ main {
 /* Productos */
 #productos {
   margin-inline: 10%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
-#productos .card {
-  width: 30%;
-  height: 30%;
-  margin-top: -250px;
-  background-color: var(--color-fondo);
-  border: none;
+div#card.row {
+  margin-top: -150px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  gap: 120px;
+  padding: 20px;
 }
 
 #productos h5.card-title, #productos .card-title.h5 {
@@ -13577,20 +13560,6 @@ main {
   background: var(--color-cafe);
 }
 
-#productos img {
-  width: 40%;
-}
-
-div.card {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  height: 300px;
-}
-
 h2#cafes, #cafes.h2 {
   padding: 50px 20px 40px 20px;
 }
@@ -13605,10 +13574,14 @@ div#estrellas {
   display: flex;
 }
 
+article.col-lg-4.col-md-4 {
+  width: 200px;
+}
+
 /* Section Inicio*/
 #titulo {
   margin-top: 10vh;
-  margin-left: 310px;
+  margin-left: 380px;
   font-size: 80px;
 }
 
@@ -13625,6 +13598,7 @@ span {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  gap: 30px;
 }
 
 #inicio div {
@@ -13638,4 +13612,28 @@ span {
 #inicio h2, #inicio .h2 {
   font-size: 20px;
   font-weight: 400;
+}
+
+/*  Responsive */
+@media (max-width: 992px) {
+  #inicio div {
+    display: block;
+  }
+  h1#titulo, #titulo.h1 {
+    margin: 0 auto;
+  }
+  #inicio img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+  #inicio h2, #inicio .h2 {
+    margin-top: 40px;
+    margin-left: 55px;
+  }
+  div#card.row {
+    margin-left: 50px;
+  }
 }
