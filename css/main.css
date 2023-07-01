@@ -13537,7 +13537,7 @@ main {
 }
 
 div#card.row {
-  margin-top: -150px;
+  margin-top: -190px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -13614,10 +13614,36 @@ span {
   font-weight: 400;
 }
 
+/* Footer */
+footer {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  text-align: center;
+  width: 70%;
+  padding: 30px;
+}
+
+footer#footer {
+  background: linear-gradient(145deg, #ffffff, #dcdad8);
+  -webkit-box-shadow: 8px 8px 6px #cbc9c7, -8px -8px 6px #ffffff;
+          box-shadow: 8px 8px 6px #cbc9c7, -8px -8px 6px #ffffff;
+  color: var(--color-texto);
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+footer#footer h5, footer#footer .h5 {
+  margin: 0;
+}
+
 /*   Modal   */
 header .perfil-modal {
   width: 250px;
-  margin-top: 64vh;
+  margin-top: 63vh;
   margin-left: 8vh;
 }
 header .perfil-modal .perfil-usuarios {
@@ -13665,5 +13691,15 @@ header .perfil-modal li a:hover {
   }
   div#card.row {
     margin-left: 50px;
+  }
+}
+@media (max-width: 1500px) {
+  footer {
+    margin-top: 400px;
+  }
+}
+@media (max-width: 762px) {
+  footer {
+    margin-top: 1300px;
   }
 }
