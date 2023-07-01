@@ -216,15 +216,14 @@ span {
 footer {
     align-items: center;
     margin: 0 auto;
-    text-align: center;
     width: 70%;
     padding: 30px;
+    background: linear-gradient(145deg, #ffffff, #dcdad8);
+    box-shadow:  8px 8px 6px #cbc9c7,
+                 -8px -8px 6px #ffffff;
 }
 
 footer#footer {
-    background: linear-gradient(145deg, #ffffff, #dcdad8);
-box-shadow:  8px 8px 6px #cbc9c7,
-             -8px -8px 6px #ffffff;
     color: var(--color-texto);
     font-size: 20px;
     font-weight: 600;
@@ -234,6 +233,7 @@ box-shadow:  8px 8px 6px #cbc9c7,
 
 footer#footer h5 {
     margin: 0;
+    text-align: center;
 }
 
 
